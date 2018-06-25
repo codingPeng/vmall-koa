@@ -1,0 +1,39 @@
+{
+  "name": "vmall-koa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf dist && rm -rf .cache && NODE_ENV=development nodemon ./start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "bcrypt-nodejs": "^0.0.3",
+    "bcryptjs": "^2.4.3",
+    "glob": "^7.1.2",
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.0.14",
+    "nanoid": "^1.0.2",
+    "nodemon": "^1.17.3",
+    "qiniu": "^7.1.3",
+    "ramda": "^0.25.0",
+    "request": "^2.85.0",
+    "request-promise-native": "^1.0.5",
+    "transform-runtime": "^0.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "puppeteer": "^1.2.0"
+  }
+}
